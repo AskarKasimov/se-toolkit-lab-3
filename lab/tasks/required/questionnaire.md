@@ -38,6 +38,5 @@ TODO questions about what their specific request is
 
 ## Authentication
 
-1. What happens when you call an endpoint without the API key? (status code): 403
-   - Note: if a token is provided but invalid, the app returns 401 Unauthorized.
+1. What happens when you call an endpoint without the API key? (status code): 401
 2. Where do you set the API key value for Docker Compose? (file name): .env.docker.secret
